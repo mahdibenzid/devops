@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: mahdibenzid/devops-2023:1.0.${{github.run_number}}
+          tags: mahdibenzid/website:1.0.${{github.run_number}}
